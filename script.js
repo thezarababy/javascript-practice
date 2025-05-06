@@ -79,5 +79,8 @@ console.log(z--)
 //boolean
 const passed = true;
 console.log(passed)
+//number
+let num = -300;
+console.log(num * 0);
 
 
