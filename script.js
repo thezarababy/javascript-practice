@@ -68,11 +68,16 @@ console.log(z--)
 
 // Write a program that tells if a user is legible to vote
 
-let votingAge = 18;
-prompt("How old are you");
-if (votingAge<18){
-    alert("you are not eligible to vote")
-}else{
-    alert("you are eligible to vote");
-}
+// let votingAge = 18;
+// prompt("How old are you");
+// if (votingAge<18){
+//     alert("you are not eligible to vote")
+// }else{
+//     alert("you are eligible to vote");
+// }
+
+//boolean
+const passed = true;
+console.log(passed)
+
 
