@@ -43,6 +43,7 @@ const remainder = 2%4;
   let z = 19;
 //   +=
 //   -+
+console.log(z--)
   //Comparism Operators
    let r = "Joy";
    let s = "oge"
@@ -51,4 +52,27 @@ const remainder = 2%4;
    let v = 54;
    console.log(r==u);
    console.log(s==r);
-   
+   console.log(v!=t);
+   console.log(r===u);
+
+   //Logical Operators
+
+   // //Joy's Admission Details
+// const acceptanceFee = False;
+//  const matriGown = True;
+//  const textbooks = True;
+//  const idCard = False;
+
+//  const checkOR = acceptanceFee || matriGown || textbooks || idCard;
+//  console.log(checkOR)
+
+// Write a program that tells if a user is legible to vote
+
+let votingAge = 18;
+prompt("How old are you");
+if (votingAge<18){
+    alert("you are not eligible to vote")
+}else{
+    alert("you are eligible to vote");
+}
+
