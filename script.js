@@ -77,10 +77,16 @@ console.log(z--)
 // }
 
 //boolean
-const passed = true;
-console.log(passed)
-//number
-let num = -300;
-console.log(num * 0);
+// const passed = true;
+// console.log(passed)
+// //number
+// let num = -300;
+// console.log(num * 0);
+const isSkyBlue = true;
+if(isSkyBlue){
+    console.log("The sky is blue")
+}else{
+    console.log("This sky is not blue?")
+}
 
 
