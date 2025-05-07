@@ -89,9 +89,7 @@ if(isSkyBlue){
     console.log("This sky is not blue?")
 }
 // Write a programe to calculate the body mass index BMI and categorize it.
-// underweight- BMI < 18.5
-//healthy - 24.9 <BMI > 18.5
-//overweight- 29.9 <BMI > 25
+
 const weight = parseFloat(prompt("enter your body weight"));
 const height = parseFloat(prompt("enter your height"));
 
