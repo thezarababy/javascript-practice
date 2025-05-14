@@ -226,3 +226,31 @@
 // console.log(answerOne);
 // console.log(answerTwo);
 
+// function celsiusToFahrenheit (celsius){
+//   return (celsius * 9/5) +32;
+// }
+// console.log("25°C is "  + celsiusToFahrenheit(25)+ "°F");
+// function fahrenheitToCelsius(fahrenheit){
+//   return (fahrenheit-32)*5/9;
+// }
+// console.log(fahrenheitToCelsius(50) +  "°F" +" is the same as 30°C" );
+ function findTheLargest(x,y,z){
+  if (x >=y && x >= z) {
+    return a;
+  }else if(y >= x && y >= z){
+    return y;
+  } else if(x===y && x===z ){
+    return "the three numbers are equal: " + x;
+  }else if(x===y && x > z){
+    return "the largest numbers are x and y " + x;
+  }else if(x===z && x<y){
+    return "the largest number is y " + y;
+  }else if (y===z && y > x){
+    return"the largest numbers are y and z " + z
+  }
+  else{
+    return z
+  }
+ }
+ console.log(findTheLargest(3,9,9));
+ console.log(findTheLargest(4,8,4));
