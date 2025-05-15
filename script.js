@@ -234,23 +234,47 @@
 //   return (fahrenheit-32)*5/9;
 // }
 // console.log(fahrenheitToCelsius(50) +  "°F" +" is the same as 30°C" );
- function findTheLargest(x,y,z){
-  if (x >=y && x >= z) {
-    return a;
-  }else if(y >= x && y >= z){
-    return y;
-  } else if(x===y && x===z ){
-    return "the three numbers are equal: " + x;
-  }else if(x===y && x > z){
-    return "the largest numbers are x and y " + x;
-  }else if(x===z && x<y){
-    return "the largest number is y " + y;
-  }else if (y===z && y > x){
-    return"the largest numbers are y and z " + z
-  }
-  else{
-    return z
-  }
- }
- console.log(findTheLargest(3,9,9));
- console.log(findTheLargest(4,8,4));
+//  function findTheLargest(x,y,z){
+//   if (x >=y && x >= z) {
+//     return a;
+//   }else if(y >= x && y >= z){
+//     return y;
+//   } else if(x===y && x===z ){
+//     return "the three numbers are equal: " + x;
+//   }else if(x===y && x > z){
+//     return "the largest numbers are x and y " + x;
+//   }else if(x===z && x<y){
+//     return "the largest number is y " + y;
+//   }else if (y===z && y > x){
+//     return"the largest numbers are y and z " + z
+//   }
+//   else{
+//     return z
+//   }
+//  }
+//  console.log(findTheLargest(3,9,9));
+//  console.log(findTheLargest(4,8,4));
+
+// forEach is a function that accepts a function
+
+// const someFunction = function() {
+//   return 5
+// };
+// const someOtherFunction = function(fn){
+//   return fn()
+// }
+// someOtherFunction(someFunction);
+
+const cities =[
+  "lagos","Abuja","ikeja","Ibadan"
+];
+cities.forEach(function(cityNames, index){
+  console.log(cityNames, index);
+});
+
+//map
+const newCities = cities.map(function(cityNames){
+  return cityNames.toUpperCase()
+});
+console.log(newCities);
+console.log(cities)
