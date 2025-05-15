@@ -265,16 +265,25 @@
 // }
 // someOtherFunction(someFunction);
 
-const cities =[
-  "lagos","Abuja","ikeja","Ibadan"
-];
-cities.forEach(function(cityNames, index){
-  console.log(cityNames, index);
-});
+// const cities =[
+//   "lagos","Abuja","ikeja","Ibadan"
+// ];
+// cities.forEach(function(cityNames, index){
+//   console.log(cityNames, index);
+// });
 
-//map
-const newCities = cities.map(function(cityNames){
-  return cityNames.toUpperCase()
-});
-console.log(newCities);
-console.log(cities)
+// //map
+// const newCities = cities.map(function(cityNames){
+//   return cityNames.toUpperCase()
+// });
+// console.log(newCities);
+// console.log(cities)
+
+//sort
+// const string = ["a", "f","l","w","S"];
+// string.sort();
+
+//split
+const X = "this is some thing";
+X.split("")
+
