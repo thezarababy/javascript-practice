@@ -38,7 +38,7 @@
 // const remainder = 2%4;
 
 //   console.log(remainder)
-  
+
 //   //Assignment Operators
 //   let z = 19;
 // //   +=
@@ -55,9 +55,9 @@
 //    console.log(v!=t);
 //    console.log(r===u);
 
-   //Logical Operators
+//Logical Operators
 
-   // //Joy's Admission Details
+// //Joy's Admission Details
 // const acceptanceFee = False;
 //  const matriGown = True;
 //  const textbooks = True;
@@ -107,7 +107,7 @@
 // }
 //comparism operator
 // ===
-// use tripple equals 
+// use tripple equals
 // const myVariable = 13;
 // if(5*2 === myVariable){
 //   alert("hurry they are equal");
@@ -168,7 +168,6 @@
 
 // const name = "Akhuemose";
 // console.log(name.(4,3));
-
 
 //functions
 
@@ -284,6 +283,46 @@
 // string.sort();
 
 //split
-const X = "this is some thing";
-X.split("")
+// const X = "this is some thing";
+// X.split("")
 
+// let food = "rice";
+// food = "pizza";
+// console.log(food);
+
+// // const food ="rice"
+// var
+
+
+//loop 
+// const car=["Volvo","BMW", "Saab", "Ford", "Fiat", "Audi"];
+// let text=""
+// for(i=0; i< car.length; i++){
+//     text+= car[i] + "<br>";
+// }
+// document.getElementById("demo").innerHTML = text
+
+// let text =""
+// for(i=1; i<10; i++){
+//     text+= i 
+// };
+// document.getElementById("demo").innerHTML=text;
+
+// OR
+
+// for (i=1,text=""; i<10; i++){
+//     text+=i
+// };
+// document.getElementById("demo").innerHTML=text;
+
+//OR
+
+
+// let i=0
+// let text="";
+
+// for(i=2; i<10 ;){
+//     text+=i;
+//     i++
+// }
+// document.getElementById("demo").innerText = text;
