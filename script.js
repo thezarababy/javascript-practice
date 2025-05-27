@@ -326,3 +326,12 @@
 //     i++
 // }
 // document.getElementById("demo").innerText = text;
+let btn = document.getElementById("btn");
+function calculate() {
+     const PI =3.142;
+    let input = document.getElementById("input").value;
+    let result = document.getElementById("result");
+     let circumference = 2 * PI * input;
+    result.innerText=`your circumference is ${circumference.toFixed(2)}.`
+}
+btn.addEventListener("click",calculate);
